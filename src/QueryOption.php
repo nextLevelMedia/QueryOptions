@@ -51,6 +51,13 @@ class QueryOption implements Arrayable
         return $this->sort;
     }
 
+    public function setSort(QuerySort $querySort): self
+    {
+        $this->sort = $querySort;
+
+        return $this;
+    }
+
     public function isNotEmpty(): bool
     {
         return $this->isEmpty() === false;
