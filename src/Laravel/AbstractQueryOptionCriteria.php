@@ -1,9 +1,9 @@
 <?php
 
-namespace YouCanShop\QueryOption\Laravel;
+namespace CodMono\QueryOption\Laravel;
 
 use Illuminate\Support\Facades\App;
-use YouCanShop\QueryOption\QueryOption;
+use CodMono\QueryOption\QueryOption;
 
 abstract class AbstractQueryOptionCriteria
 {

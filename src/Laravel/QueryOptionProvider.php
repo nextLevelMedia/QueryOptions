@@ -1,11 +1,11 @@
 <?php
 
-namespace YouCanShop\QueryOption\Laravel;
+namespace CodMono\QueryOption\Laravel;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\ServiceProvider;
-use YouCanShop\QueryOption\QueryOption;
-use YouCanShop\QueryOption\QueryOptionFactory;
+use CodMono\QueryOption\QueryOption;
+use CodMono\QueryOption\QueryOptionFactory;
 
 class QueryOptionProvider extends ServiceProvider
 {

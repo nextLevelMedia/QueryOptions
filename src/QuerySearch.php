@@ -1,6 +1,6 @@
 <?php
 
-namespace YouCanShop\QueryOption;
+namespace CodMono\QueryOption;
 
 use InvalidArgumentException;
 

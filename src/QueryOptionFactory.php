@@ -1,11 +1,11 @@
 <?php
 
-namespace YouCanShop\QueryOption;
+namespace CodMono\QueryOption;
 
 use Illuminate\Http\Request as IlluminateRequest;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
-use YouCanShop\QueryOption\Helpers\Arr;
-use YouCanShop\QueryOption\Exceptions\InvalidFilterOperatorException;
+use CodMono\QueryOption\Helpers\Arr;
+use CodMono\QueryOption\Exceptions\InvalidFilterOperatorException;
 
 class QueryOptionFactory
 {

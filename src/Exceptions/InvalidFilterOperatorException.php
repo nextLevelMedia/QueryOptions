@@ -1,6 +1,6 @@
 <?php
 
-namespace YouCanShop\QueryOption\Exceptions;
+namespace CodMono\QueryOption\Exceptions;
 
 use Exception;
 

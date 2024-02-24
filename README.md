@@ -4,7 +4,7 @@
 </p>
 
 [![Tests](https://github.com/youcan-shop/QueryOption/actions/workflows/tests.yaml/badge.svg)](https://github.com/youcan-shop/QueryOption/actions/workflows/tests.yaml)
-[![Total Downloads](https://img.shields.io/packagist/dt/youcanshop/queryoption.svg?style=flat-square)](https://packagist.org/packages/youcanshop/queryoption)
+[![Total Downloads](https://img.shields.io/packagist/dt/CodMono/queryoption.svg?style=flat-square)](https://packagist.org/packages/CodMono/queryoption)
 [![License](https://img.shields.io/github/license/youcan-shop/QueryOption?style=flat-square)](https://github.com/youcan-shop/QueryOption/blob/master/LICENSE.md)
 
 This package helps you manipulate HTTP query data as an object instead of passing an array through different layers of your application.
@@ -121,7 +121,7 @@ For Laravel applications, you can add Query Option provider inside `config/app.p
 ```php
 <?php
 
-use YouCanShop\QueryOption\Laravel\QueryOptionProvider;
+use CodMono\QueryOption\Laravel\QueryOptionProvider;
 
 return [
     // ...
@@ -146,7 +146,7 @@ Inside your repository you can use what we call **criterias**. Here's an example
 ```php
 <?php
 
-use YouCanShop\QueryOption\Laravel\UsesQueryOption;
+use CodMono\QueryOption\Laravel\UsesQueryOption;
 
 class PostRepository {
     use UsesQueryOption;

@@ -1,6 +1,6 @@
 <?php
 
-namespace YouCanShop\QueryOption\Helpers;
+namespace CodMono\QueryOption\Helpers;
 
 use ArrayAccess;
 

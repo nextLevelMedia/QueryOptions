@@ -1,8 +1,8 @@
 <?php
 
-namespace YouCanShop\QueryOption;
+namespace CodMono\QueryOption;
 
-use YouCanShop\QueryOption\Exceptions\InvalidFilterOperatorException;
+use CodMono\QueryOption\Exceptions\InvalidFilterOperatorException;
 
 class QueryFilter implements Arrayable
 {

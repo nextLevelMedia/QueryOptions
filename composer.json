@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "YouCanShop\\QueryOption\\": "src/"
+      "CodMono\\QueryOption\\": "src/"
     }
   },
   "autoload-dev": {
