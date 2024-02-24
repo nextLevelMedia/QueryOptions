@@ -1,5 +1,5 @@
 {
-  "name": "youcanshop/queryoption",
+  "name": "nextlevelmedia/queryoption",
   "type": "project",
   "description": "Package to help with filtering/search/sort in queries",
   "keywords": [
@@ -12,7 +12,7 @@
     "MIT"
   ],
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^8.0 || ^8.3"
   },
   "require-dev": {
     "pestphp/pest": "^1.21",
